@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harig1511_go_pipeline_sample_1701329195040-push-trigger-input-set
+  identifier: Build_harig1511_go_pipeline_sample_1701329195040pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_harig1511_go_pipeline_sample_1701329195040
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
