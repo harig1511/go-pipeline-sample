@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harig1511_go_pipeline_sample_1701329676034-pr-trigger-input-set
+  identifier: Build_harig1511_go_pipeline_sample_1701329676034prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_harig1511_go_pipeline_sample_1701329676034
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
